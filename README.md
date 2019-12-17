@@ -6,11 +6,13 @@ Pytorch implementation for “Improving Generative Adversarial Networks with Loc
 
 ![][2]
 
-* AutoEncoder (AE) learns embeddings on the latent manifold.
+* AutoEncoder (AE) learns the embeddings on the latent manifold.
 
 * Local Coordinate Coding (LCC) learns local coordinate systems. Specifically, we train LCCGAN-v1 with q=2 and LCCGAN-v2 with q=3.
 
 * The LCC sampling method is conducted on the latent manifold.
+
+* The LCCGAN is a general framework that can be applied to different GAN methods.
 
 ## Dependencies
 
